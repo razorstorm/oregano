@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96BE7A4621913E0300C5BD04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BE7A4521913E0300C5BD04 /* AppDelegate.swift */; };
+		96BE7A4821913E0300C5BD04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BE7A4721913E0300C5BD04 /* ViewController.swift */; };
+		96BE7A4B21913E0300C5BD04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96BE7A4921913E0300C5BD04 /* Main.storyboard */; };
+		96BE7A4D21913E0400C5BD04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96BE7A4C21913E0400C5BD04 /* Assets.xcassets */; };
+		96BE7A5021913E0400C5BD04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96BE7A4E21913E0400C5BD04 /* LaunchScreen.storyboard */; };
+		96BE7A5B21913E0400C5BD04 /* OreganoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BE7A5A21913E0400C5BD04 /* OreganoTests.swift */; };
+		96BE7A6621913E0400C5BD04 /* OreganoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BE7A6521913E0400C5BD04 /* OreganoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96BE7A5721913E0400C5BD04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96BE7A3A21913E0300C5BD04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96BE7A4121913E0300C5BD04;
+			remoteInfo = Oregano;
+		};
+		96BE7A6221913E0400C5BD04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96BE7A3A21913E0300C5BD04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96BE7A4121913E0300C5BD04;
+			remoteInfo = Oregano;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		96BE7A4221913E0300C5BD04 /* Oregano.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oregano.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96BE7A4521913E0300C5BD04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		96BE7A4721913E0300C5BD04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		96BE7A4A21913E0300C5BD04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96BE7A4C21913E0400C5BD04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96BE7A4F21913E0400C5BD04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		96BE7A5121913E0400C5BD04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96BE7A5621913E0400C5BD04 /* OreganoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OreganoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96BE7A5A21913E0400C5BD04 /* OreganoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OreganoTests.swift; sourceTree = "<group>"; };
+		96BE7A5C21913E0400C5BD04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96BE7A6121913E0400C5BD04 /* OreganoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OreganoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96BE7A6521913E0400C5BD04 /* OreganoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OreganoUITests.swift; sourceTree = "<group>"; };
+		96BE7A6721913E0400C5BD04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96BE7A3F21913E0300C5BD04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96BE7A5321913E0400C5BD04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96BE7A5E21913E0400C5BD04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96BE7A3921913E0300C5BD04 = {
+			isa = PBXGroup;
+			children = (
+				96BE7A4421913E0300C5BD04 /* Oregano */,
+				96BE7A5921913E0400C5BD04 /* OreganoTests */,
+				96BE7A6421913E0400C5BD04 /* OreganoUITests */,
+				96BE7A4321913E0300C5BD04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96BE7A4321913E0300C5BD04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96BE7A4221913E0300C5BD04 /* Oregano.app */,
+				96BE7A5621913E0400C5BD04 /* OreganoTests.xctest */,
+				96BE7A6121913E0400C5BD04 /* OreganoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96BE7A4421913E0300C5BD04 /* Oregano */ = {
+			isa = PBXGroup;
+			children = (
+				96BE7A4521913E0300C5BD04 /* AppDelegate.swift */,
+				96BE7A4721913E0300C5BD04 /* ViewController.swift */,
+				96BE7A4921913E0300C5BD04 /* Main.storyboard */,
+				96BE7A4C21913E0400C5BD04 /* Assets.xcassets */,
+				96BE7A4E21913E0400C5BD04 /* LaunchScreen.storyboard */,
+				96BE7A5121913E0400C5BD04 /* Info.plist */,
+			);
+			path = Oregano;
+			sourceTree = "<group>";
+		};
+		96BE7A5921913E0400C5BD04 /* OreganoTests */ = {
+			isa = PBXGroup;
+			children = (
+				96BE7A5A21913E0400C5BD04 /* OreganoTests.swift */,
+				96BE7A5C21913E0400C5BD04 /* Info.plist */,
+			);
+			path = OreganoTests;
+			sourceTree = "<group>";
+		};
+		96BE7A6421913E0400C5BD04 /* OreganoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				96BE7A6521913E0400C5BD04 /* OreganoUITests.swift */,
+				96BE7A6721913E0400C5BD04 /* Info.plist */,
+			);
+			path = OreganoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96BE7A4121913E0300C5BD04 /* Oregano */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96BE7A6A21913E0400C5BD04 /* Build configuration list for PBXNativeTarget "Oregano" */;
+			buildPhases = (
+				96BE7A3E21913E0300C5BD04 /* Sources */,
+				96BE7A3F21913E0300C5BD04 /* Frameworks */,
+				96BE7A4021913E0300C5BD04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Oregano;
+			productName = Oregano;
+			productReference = 96BE7A4221913E0300C5BD04 /* Oregano.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96BE7A5521913E0400C5BD04 /* OreganoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96BE7A6D21913E0400C5BD04 /* Build configuration list for PBXNativeTarget "OreganoTests" */;
+			buildPhases = (
+				96BE7A5221913E0400C5BD04 /* Sources */,
+				96BE7A5321913E0400C5BD04 /* Frameworks */,
+				96BE7A5421913E0400C5BD04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96BE7A5821913E0400C5BD04 /* PBXTargetDependency */,
+			);
+			name = OreganoTests;
+			productName = OreganoTests;
+			productReference = 96BE7A5621913E0400C5BD04 /* OreganoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		96BE7A6021913E0400C5BD04 /* OreganoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96BE7A7021913E0400C5BD04 /* Build configuration list for PBXNativeTarget "OreganoUITests" */;
+			buildPhases = (
+				96BE7A5D21913E0400C5BD04 /* Sources */,
+				96BE7A5E21913E0400C5BD04 /* Frameworks */,
+				96BE7A5F21913E0400C5BD04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96BE7A6321913E0400C5BD04 /* PBXTargetDependency */,
+			);
+			name = OreganoUITests;
+			productName = OreganoUITests;
+			productReference = 96BE7A6121913E0400C5BD04 /* OreganoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96BE7A3A21913E0300C5BD04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Jason Jiang";
+				TargetAttributes = {
+					96BE7A4121913E0300C5BD04 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					96BE7A5521913E0400C5BD04 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 96BE7A4121913E0300C5BD04;
+					};
+					96BE7A6021913E0400C5BD04 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 96BE7A4121913E0300C5BD04;
+					};
+				};
+			};
+			buildConfigurationList = 96BE7A3D21913E0300C5BD04 /* Build configuration list for PBXProject "Oregano" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96BE7A3921913E0300C5BD04;
+			productRefGroup = 96BE7A4321913E0300C5BD04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96BE7A4121913E0300C5BD04 /* Oregano */,
+				96BE7A5521913E0400C5BD04 /* OreganoTests */,
+				96BE7A6021913E0400C5BD04 /* OreganoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96BE7A4021913E0300C5BD04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96BE7A5021913E0400C5BD04 /* LaunchScreen.storyboard in Resources */,
+				96BE7A4D21913E0400C5BD04 /* Assets.xcassets in Resources */,
+				96BE7A4B21913E0300C5BD04 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96BE7A5421913E0400C5BD04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96BE7A5F21913E0400C5BD04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96BE7A3E21913E0300C5BD04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96BE7A4821913E0300C5BD04 /* ViewController.swift in Sources */,
+				96BE7A4621913E0300C5BD04 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96BE7A5221913E0400C5BD04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96BE7A5B21913E0400C5BD04 /* OreganoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96BE7A5D21913E0400C5BD04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96BE7A6621913E0400C5BD04 /* OreganoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96BE7A5821913E0400C5BD04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96BE7A4121913E0300C5BD04 /* Oregano */;
+			targetProxy = 96BE7A5721913E0400C5BD04 /* PBXContainerItemProxy */;
+		};
+		96BE7A6321913E0400C5BD04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96BE7A4121913E0300C5BD04 /* Oregano */;
+			targetProxy = 96BE7A6221913E0400C5BD04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		96BE7A4921913E0300C5BD04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96BE7A4A21913E0300C5BD04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		96BE7A4E21913E0400C5BD04 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96BE7A4F21913E0400C5BD04 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96BE7A6821913E0400C5BD04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		96BE7A6921913E0400C5BD04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96BE7A6B21913E0400C5BD04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4KBP63J39G;
+				INFOPLIST_FILE = Oregano/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasonj.Oregano;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96BE7A6C21913E0400C5BD04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4KBP63J39G;
+				INFOPLIST_FILE = Oregano/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasonj.Oregano;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		96BE7A6E21913E0400C5BD04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4KBP63J39G;
+				INFOPLIST_FILE = OreganoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasonj.OreganoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Oregano.app/Oregano";
+			};
+			name = Debug;
+		};
+		96BE7A6F21913E0400C5BD04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4KBP63J39G;
+				INFOPLIST_FILE = OreganoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasonj.OreganoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Oregano.app/Oregano";
+			};
+			name = Release;
+		};
+		96BE7A7121913E0400C5BD04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4KBP63J39G;
+				INFOPLIST_FILE = OreganoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasonj.OreganoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Oregano;
+			};
+			name = Debug;
+		};
+		96BE7A7221913E0400C5BD04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4KBP63J39G;
+				INFOPLIST_FILE = OreganoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasonj.OreganoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Oregano;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96BE7A3D21913E0300C5BD04 /* Build configuration list for PBXProject "Oregano" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96BE7A6821913E0400C5BD04 /* Debug */,
+				96BE7A6921913E0400C5BD04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96BE7A6A21913E0400C5BD04 /* Build configuration list for PBXNativeTarget "Oregano" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96BE7A6B21913E0400C5BD04 /* Debug */,
+				96BE7A6C21913E0400C5BD04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96BE7A6D21913E0400C5BD04 /* Build configuration list for PBXNativeTarget "OreganoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96BE7A6E21913E0400C5BD04 /* Debug */,
+				96BE7A6F21913E0400C5BD04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96BE7A7021913E0400C5BD04 /* Build configuration list for PBXNativeTarget "OreganoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96BE7A7121913E0400C5BD04 /* Debug */,
+				96BE7A7221913E0400C5BD04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96BE7A3A21913E0300C5BD04 /* Project object */;
+}
